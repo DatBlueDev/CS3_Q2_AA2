@@ -10,64 +10,106 @@
       <title>Home - Lessons in Memeology</title>
       <style>
 			body{
-				background-color:gray;
+				background-color:rgb(255, 255, 255);
 			}
 			#header{
 				
                 background-color:rgb(12, 16, 59);
                 color:white;
                 font-size:90%;
-                text-align:center;	
-                vertical-align: middle;
 				padding-top:1%;
 				padding-bottom:1%;
                 height:auto;
             }
+			.navbar {
+				padding:0px;
+				padding-bottom:10%;
+			}
 			h1{
-				padding-right:5%;
+				padding-left:5%;
 			}
 			h2 {
-				background-color:#c03cde;
+				background-color:#8679ff;
+				padding:0px;
+				margin:0px;
+			} 
+
+			.nav-link{
+				color: white;
+				font-size:150%;
 			}
-            #Title {
-                font-family: cursive;
-                display: block;
-                color: white;
-                text-align: center;
-                text-decoration: none;
-                font-size: 100%;
-            }
-			
-			.container{
-				background-color:white;
-				
+			.container, .row{
+				background-color:rgb(255, 235, 181);
+				border:5px solid black;
+
+
 			}
 			.row {
 				text-align:center;
+			}
+			.col-sm-6{
+				border:5px solid black;
+
+			}
+			.col-sm-12 {
+				padding-top:1%;
+				border-bottom:5px solid black;
 			}
       </style>
   </head>
       
   <body>
-		<div class="jumbotron text-center" id="header">
-		  <h1> <img src="LIMC.jpg" width = 140px> Lessons In Memeology </h1>
-		  <p>Educating the uncultured one meme at a time!</p>
+	<nav class="navbar navbar-expand-lg">
+		<div class="container-fluid" id = "header">
+		  <h1 style="padding-right:5%;" > <img src="LIMC.jpg" width = 140px> Lessons In Memeology </h1>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="Featured.html">Popular</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="Trash.html">Trashposting</a>
+				</li>
+		
+			</ul>
 		</div>
-	  <div class="container bg-white text-black">
+	</nav>
+	  <div class="container-fluid bg-white text-black">
 
 	  <div class="row">
 	
+		<h2> ~ Memes ~</h2>
 		<div class="col-sm-12">
-			<h2> Recent Popular Memes </h2>
-		</div>
+			<h3>Brief definition of memes</h3>
+			<p style = "margin-left: 10%;margin-right:10%;">The Urban Dictionary defines memes as: 
+				"Popular quotes, images, and real people, which are copied, imitated, and spread all over the internet(s)!"
+				memes are usually humorous and/or employs irony or sarcasm to deliver a message, the 
+				purpose and topics of the memes can be relatable, funny, irrelevant, political, almost any 
+				topic you can think of; it is a form of sharing and connecting.
+			</p>
+		  </div>
+		<div class="col-sm-12">
+			<h3>Brief history on memes</h3>
+			<p style = "margin-left: 10%;margin-right:10%;">Memes have been around for a long time now, 
+				the earliest meme found has been recorded to be 1921;
+				though its prominence exploded when the internet became
+				available to the public, and where information was easily
+				shared and accessed all over the globe.
+			</p>
+		  </div>
+		  <div class="col-sm-6">
+			<img src="first.webp" width="700px">
+			<p>What might be the first meme, 1921</p>
+		  </div>
 		<div class="col-sm-6">
-		  <h3>Column 1</h3>
-		  <p>Lorem ipsum dolor..</p>
+			<img src="trollface.webp" width="480px">
+		  <p>A famous image depicting a face after doing miniscule amounts of tomfoolery, or "trolling"</p>
 		</div>
-		<div class="col-sm-6">
-		  <h3>Column 2</h3>
-		  <p>Lorem ipsum dolor..</p>
-		</div>
+
 
 	  </div>
 	</div>
